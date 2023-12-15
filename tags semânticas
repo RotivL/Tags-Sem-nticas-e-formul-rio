@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form method="get" action="formulario.html">
+        <input type="text" name="nome" id="nome" placeholder="Nome" required>
+
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome"><br>
+
+        <input type="text" name="celular-ou-email" id="celular-ou-email" placeholder="Celular ou E-mail">
+
+        <input type="password" name="senha" id="senha" placeholder="Nova senha"><br>
+
+        <label>Data de nascimento</label><br>
+        <select name="dia">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+
+        </select>
+
+        <select name="mes">
+            <option value="jan">Janeiro</option>
+            <option value="fev">Fevereiro</option>
+            <option value="mar">Março</option>
+            <option value="abr">Abril</option>
+            <option value="mai">Maio</option>
+            <option value="jun">Junho</option>
+
+        </select>
+
+        <select name="ano">
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+
+        </select>
+        
+        <br><br>
+
+        <label>Gênero</label><br>
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" id="feminino" value="feminino">
+
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino" value="masculino">
+
+        <label for="personalizado">Personalizado</label>
+        <input type="radio" name="genero" id="personalizado" value="personalizado">
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <header>
+        <h1>Tags Semânticas</h1>
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/sobre">Sobre</a></li>
+                <li><a href="/portifolio">Portifólio</a></li>
+                <li><a href="/contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Módulo HTML intermediário</h2>
+            <figure></figure>
+                <img src="logo-html.jpg">
+                <figcaption>Essa é a logo do HTML</figcaption>
+            </figure>
+            <p>Esse módulo é sobre HTML intermediário</p>
+        </section>
+
+        <article>
+            <h2>HTML</h2>
+            <p>Teste de HTML intermediário</p>
+        </article>
+
+        <article>
+            <h2>Javascript</h2>
+            <p>Ainda não cheguei na aula de Javascript</p>
+        </article>
+
+    </main>
+
+    <footer>
+        <address>
+            <a href="https://www.linkedin.com/in/vitor-nicolas-souza-lima-3302b6236/" target="_blank">Meu linkedin</a>
+        </address>
+    </footer>
+</body>
+</html>
